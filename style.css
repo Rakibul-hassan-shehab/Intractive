@@ -21,10 +21,11 @@ body{
   margin: 15px;
   font-family: sans-serif;
 }
+
 .button{
     margin-top: 25px;
 }
-.button a{
+.button > a{
     text-decoration: none;
     color: white;
     font-family: sans-serif;
@@ -36,6 +37,9 @@ body{
 .contant_area{
     margin-top: 5em;
     
+}
+.main_containt:hover{
+    background-color: #fff0f0;
 }
 .main_containt{
     font-family: sans-serif;
